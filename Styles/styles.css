@@ -1,0 +1,168 @@
+/* General Styling*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    color: #333;
+    overflow-x: hidden;
+    
+}
+
+/*Utility classes*/
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.text-primary {
+    color: #3693ff;
+}
+
+/*Navbar*/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background:#333;
+    color: #fff;
+    padding: 1.5rem 8rem;
+    position: sticky; 
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #3693ff
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar h2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar li a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    transition: 0.3s
+}
+
+
+#navbar li a:hover {
+    background-color: #3693ff;
+}
+
+
+/*welcome area*/
+#welcome-section {
+    background-image: url(../img/jooj.jpg);
+    height:81.7vh;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 81px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+}
+
+.welcome-content h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+/*Section: About*/
+#about {
+    padding: 5rem 0;
+    
+}
+
+#about h2{
+   text-align: 2rem;
+   margin-bottom: 1rem;
+   background-color: #3693ff;
+
+}
+
+#about p.lead {
+    margin-bottom: 1rem;
+}
+
+#about ul.lead{
+    margin-bottom: 1rem;
+}
+
+#about .about-content {
+    display: flex;
+}
+
+#about .about-text,
+#about .about-image {
+    flex: 5;
+}
+
+#about .about-text {
+    text-align: justify;
+
+}
+
+#about .about-image img {
+    display: block;
+    margin-left: auto;
+    width: 75%;
+    border-radius:40%;
+    margin-top: 60px
+}
+
+/*section:projects*/
+#projects {
+    padding: 5rem 5rem;
+}
+
+#projects h2 {
+    text-align:2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: #3693ff;
+}
+.myprojects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-tile{
+    position: relative;
+}
+
+
+
+/*contacts section*/
+#contacts{
+    padding: 5rem 5rem;
+    align-items: center;
+    
+}
+
+#contacts h2{
+    text-align: center;
+    background-color: #3693ff;
+}
+
