@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: Arial, sans-serif;
+    font-family: Arial,sans-serif;
     line-height: 1.4;
     color: #333;
     overflow-x: hidden;
@@ -92,14 +92,17 @@ body{
 /*Section: About*/
 #about {
     padding: 5rem 0;
+    background-color: #3693ff;
+    border-radius: 5%;
     
 }
 
 #about h2{
    text-align: 2rem;
    margin-bottom: 1rem;
-   background-color: #3693ff;
-
+   background-color: #333;
+   color: #fff;
+   
 }
 
 #about p.lead {
@@ -134,18 +137,24 @@ body{
 
 /*section:projects*/
 #projects {
-    padding: 5rem 5rem;
+    padding: 5rem 10rem;
+    background-color: #3693ff;
+    border-radius: 5%;
 }
 
 #projects h2 {
     text-align:2rem;
     margin-bottom: 1rem;
     text-align: center;
-    background-color: #3693ff;
+    background-color:#333;
+    color: #fff;
+
 }
+
 .myprojects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .project-tile{
