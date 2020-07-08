@@ -6,21 +6,25 @@ body {
     margin: 0;
 }
 header {
-    background-color:#5c755e;
+    background-color:#ecc19c;
     margin: 10px;
-    height: 90px;
+    padding: 20px;
+    height: 20px;
     border-radius: 5px;
-    display: fixed;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 /* Navigation */
 
 #navbar {
     position: fixed;
     top: 0;
-    height: 35px;
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
+    left: 0;
+    width: 100%;
 }
 
 
@@ -42,29 +46,20 @@ ul{
     list-style: none;
     justify-content: space-around;
     align-items: center;
-    padding: 0;
-    margin: 0;
-    
+   
 }
 .active {
     color:#f783ae;
 }
 main {
-    background-color: purple;
+    background-color: #e521e5;
     margin: 10px;
     border-radius: 5px;
     padding: 20px;
     font-size: 120%;
+    width: 100%;
 }
-h1{
-    color:#8E8986;
-    font-size: 150%;
-    text-align: center;
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
-    font-weight: bold;
-    padding-bottom: 5px;
-}
+
 h2 {
     color: #fff;
     font-weight: bold;
@@ -72,29 +67,23 @@ h2 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
     font-size: 1.2em;
     opacity: .7;
-    padding-bottom: 15px;
+    text-align: center;
 }
-
+h2:hover{
+    transform: scale(2)
+}
 p{
     text-align: left;
-    color:#fff;
+    color:#000;
     line-height: 1.5em;
     margin: 0;  
 }
 .para{
-    text-align: right;
-    font-size: 32px;
+    text-align: center;
+    font-size: 24px;
 }
 #para2{
     text-align: center;
-}
-#welcome-section{
-    color: chocolate;
-    font-style: italic;
-    height: 100vh;
-}
-#welcome-section:hover{
-    transform: skew(-35deg)
 }
 
 img {
@@ -102,13 +91,17 @@ img {
     height: 50%;
     float: right;
     display: block; 
-    border-radius: 5px;  
+    border-radius: 8px;  
 }
+img:hover {
+    transform: scaleX(-1);
+  }
 #profile-description{
     text-align: left;
 }
 #projects{
     float: left;
+    border-radius: 50%;
 }
 .project-tile{
     text-align: center;
@@ -125,23 +118,10 @@ img {
     background-color: indigo;
 }
 
-/* form */
-#theform{
-    color: black;
-    background-color: wheat;
-    display: table;
-    padding: 15px;
-    border: solid 2px black;
-    display: flex;
-    justify-content: center;
-}
-.row{
-    display: table-row;
-}
 
 /* footer */
 footer{
-    background-color:#000;
+    background-color:#0d1137;
     margin: 10px;
     height: 65px;
     clear: both;
