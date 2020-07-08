@@ -27,7 +27,7 @@ body{
 #navbar {
     display: flex;
     justify-content: space-between;
-    background:#333;
+    background-color: brown;
     color: #fff;
     padding: 1.5rem 8rem;
     position: sticky; 
@@ -92,7 +92,7 @@ body{
 /*Section: About*/
 #about {
     padding: 5rem 0;
-    background-color: #3693ff;
+    background-color:lightgoldenrodyellow;
     border-radius: 5%;
     
 }
@@ -138,7 +138,7 @@ body{
 /*section:projects*/
 #projects {
     padding: 5rem 10rem;
-    background-color: #3693ff;
+    background-color: lightgoldenrodyellow;
     border-radius: 5%;
     
 }
@@ -175,7 +175,8 @@ body{
 
 #contacts h2{
     text-align: center;
-    background-color: #3693ff;
+    background-color:#333;
+    color:#fff;
 }
 
 .container-contacts{
