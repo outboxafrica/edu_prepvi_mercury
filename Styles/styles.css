@@ -140,6 +140,7 @@ body{
     padding: 5rem 10rem;
     background-color: #3693ff;
     border-radius: 5%;
+    
 }
 
 #projects h2 {
@@ -167,6 +168,8 @@ body{
 #contacts{
     padding: 5rem 5rem;
     align-items: center;
+    padding-left: 6%;
+
     
 }
 
@@ -175,3 +178,13 @@ body{
     background-color: #3693ff;
 }
 
+#contacts img{
+    align-items: center;
+    text-align: center;
+}
+
+/*footer*/
+#footer{
+    text-align: center;
+    padding-bottom: 5%;
+}
