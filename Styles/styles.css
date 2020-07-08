@@ -178,13 +178,17 @@ body{
     background-color: #3693ff;
 }
 
-#contacts img{
-    align-items: center;
-    text-align: center;
+.container-contacts{
+    align-content: center;
+}
 }
 
 /*footer*/
 #footer{
     text-align: center;
-    padding-bottom: 5%;
+}
+.footersect{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10%;
 }
