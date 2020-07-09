@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: lightcyan;
+    font-weight: bolder;
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Navigation */
+
+#navbar {
+    background-color:#d72631;
+    margin: 10px;
+    padding: 20px;
+    height: 20px;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+a {
+    padding: 0 32px;
+    color:#eee;
+    transition: 0.4s;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color:black;
+    text-decoration: none;
+    background-color: white;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+}
+li{
+    display: inline;
+}
+.active {
+    color:#f783ae;
+}
+main {
+    background-color: lightpink;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 120%;
+    width: 100%;
+}
+
+h1 {
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+    font-size: 1.2em;
+    opacity: .7;
+    text-align: left;
+}
+h1:hover{
+    color: black;
+}
+p{
+    text-align: left;
+    color:#000;
+    line-height: 1.5em;
+    margin: 0;  
+    font-size: larger;
+}
+.para{
+    text-align: center;
+    font-size: 24px;
+}
+#para2{
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    float: right;
+    display: block; 
+    border-radius: 8px;  
+}
+img:hover {
+    transform: scaleX(-1);
+  }
+#center{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    float: left;
+}
+#profile-description{
+    text-align: left;
+}
+#projects{
+    float: left;
+    border-radius: 50%;
+}
+.project-tile{
+    text-align: center;
+}
+
+/* footer */
+footer{
+    background-color:#d72631;
+    margin: 10px;
+    height: 65px;
+    clear: both;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Media */
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+@media (max-height: 800px) {
+    p {
+      font-size: 10px;
+    }
+  }
+
