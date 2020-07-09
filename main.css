@@ -1,0 +1,95 @@
+body {
+  background-color: blanchedalmond;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+/*navbar*/
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: brown;
+  color: #fff;
+  padding: 1.5rem 8rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 3px solid #3693ff;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar li a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+#navbar li a:hover {
+  background-color: #3693ff;
+}
+
+/*welcome section*/
+#welcome {
+  height: 100px;
+}
+
+#welcome-section {
+  text-align: center;
+  color: red;
+  font-size: 50px;
+  font-family: Arial,sans-serif;
+}
+
+#welcome h2 {
+  text-align: center;
+  color:blue;
+}
+
+/*portfolio*/
+.memberbox{
+  width: 300px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px 12px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.memberbox:hover{
+  transform: scale(1.1);
+}
+
+#members {
+  margin-top: 5px;
+}
+
+#members .memberbox {
+  float: left;
+  background: rgb(212, 211, 208);
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  text-align: center;
+  border-radius:15px;
+}
