@@ -1,15 +1,19 @@
 body {
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family:Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: lightcyan;
     font-weight: bolder;
-    font-size: 32px;
+    font-size: 18px;
     margin: 0;
+    
+}
+#welcome-section{
+    font-size: 36px;
 }
 
 /* Navigation */
 
 #navbar {
-    background-color:#d72631;
+    background-color: crimson;
     margin: 10px;
     padding: 20px;
     height: 20px;
@@ -19,21 +23,22 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    position: fixed;
 }
 
 
 a {
     padding: 0 32px;
-    color:#eee;
+    color:black;
     transition: 0.4s;
     text-decoration: none;
     
 }
 
 a:hover {
-    color:black;
+    color:blue;
     text-decoration: none;
-    background-color: white;
+    /* background-color: white; */
 }
 ul{
     list-style: none;
@@ -51,8 +56,9 @@ main {
     margin: 10px;
     border-radius: 5px;
     padding: 20px;
-    font-size: 120%;
+    /* font-size: 120%; */
     width: 100%;
+    /* text-align: center; */
 }
 
 h1 {
@@ -60,9 +66,9 @@ h1 {
     font-weight: bold;
     padding-bottom: 5px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     opacity: .7;
-    text-align: left;
+    /* text-align: left; */
 }
 h1:hover{
     color: black;
@@ -72,11 +78,11 @@ p{
     color:#000;
     line-height: 1.5em;
     margin: 0;  
-    font-size: larger;
+    /* font-size: larger; */
 }
 .para{
     text-align: center;
-    font-size: 24px;
+    /* font-size: 24px; */
 }
 #para2{
     text-align: center;
@@ -97,26 +103,26 @@ img:hover {
     border-radius: 4px;
     padding: 5px;
     width: 150px;
-    float: left;
+    /* float: left; */
 }
-#profile-description{
+/* #profile-description{
     text-align: left;
-}
+} */
 #projects{
-    float: left;
+    float: right;
     border-radius: 50%;
 }
-.project-tile{
+/* .project-tile{
     text-align: center;
-}
+} */
 
 /* footer */
 footer{
-    background-color:#d72631;
+    background-color: crimson;
     margin: 10px;
     height: 65px;
-    clear: both;
-    border-radius: 5px;
+    /* clear: both; */
+    /* border-radius: 5px; */
     width: 100%;
 }
 
@@ -130,7 +136,7 @@ footer{
   }
 @media (max-height: 800px) {
     p {
-      font-size: 10px;
+      /* font-size: 10px; */
     }
   }
 
