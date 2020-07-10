@@ -1,0 +1,13 @@
+container{
+    background-color: brown;
+    text-align: justify;
+}
+footer{
+    background-color: crimson;
+    /* margin: 10px; */
+    height: 65px;
+    /* clear: both; */
+    /* border-radius: 5px; */
+    width: 100%;
+    text-align: center;
+}
